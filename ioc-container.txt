@@ -1,0 +1,37 @@
+IOC container
+==============
+Beans are created by IOC container
+IOC container is a module of spring framework
+IOC container performs following tasks
+1)Creating beans
+2)Initializing beans
+3)Managing life cycle of beans
+4)Setting scope of beans
+5)Injecting beans
+etc
+There are two types of IOC container
+1)BeanFactory container
+2)ApplicationContext container
+
+BeanFactory container
+=====================
+BeanFactory is an interface
+It has several impementation.One of them is XmlBeanFactory
+Our program can create an object of XmlBeanFactory class and use this object as IOC container
+Resource r=new ClassPathResource("beans.xml");
+BeanFactory factory=new XmlBeanFactory(r);
+
+
+ApplicationContext container
+=============================
+ApplicationContext is an interface
+It is child of BeanFactory interface
+It has several impementation.One of them is ClassPathXmlApplicationContext
+Our program can create an object of ClassPathXmlApplicationContext class and use this object as IOC container
+
+ApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
+
+
+
+
+

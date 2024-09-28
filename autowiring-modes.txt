@@ -1,0 +1,24 @@
+Autowiring
+==========
+Injecting dependency without configuration is called autowiring
+We will have to set one of the following autowiring mode
+1)byName mode
+2)byType mode
+3)constructor mode
+4)none
+
+byName mode
+===========
+In this case name of the dependency will be matched with id of available beans and matching bean will be injected by setter injection.This mode will be useful when more than one beans are available 
+
+byType mode
+===========
+In this case type of the dependency will be matched with type of available beans and matching bean will be injected by setter injection.This mode will be useful when one matching beans will be avaialble.
+
+constructor mode
+=================
+In case of multiple beans, name of constructor argument will be matched with id of available beans and matching bean will be injected using that constructor
+In case of single bean, type of constructor argument will be matched with type of available beans and matching bean will be injected using that constructor
+
+
+

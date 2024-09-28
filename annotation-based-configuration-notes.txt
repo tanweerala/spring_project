@@ -1,0 +1,74 @@
+Types of configuration in spring
+--------------------------------
+Three types of configuration is possible in spring framework
+1)XML based configuration
+2)Annotation based configuration
+3)Java code based configuration 
+
+
+Annotation based configuration
+------------------------------
+We can configure our bean classes by using annotation too
+We can use following annotation for bean
+
+1)@Component
+2)@Controller
+3)@Service
+4)@Repository
+
+These annotations are stereotype annotations
+
+
+@Autowired annotation
+=====================
+This annotation is used for dependency injection
+We wiil have to use this annotation inside dependent class
+It can be used following three level/position
+
+1)Just before dependency declaration
+2)Just before constructor 
+3)Just before setter method
+
+@Component
+public class BB
+{
+}
+
+@Componemt
+public class AA
+{
+   //@Autowired	
+   private BB obj;
+
+   public AA(){}
+   //@Autowired	
+   public AA(BB obj)
+   {
+	this.obj=obj;
+   }
+   //@Autowired	
+   public void setObj(BB obj)
+   {
+	this.obj=obj;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

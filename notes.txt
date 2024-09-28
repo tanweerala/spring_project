@@ -1,0 +1,17 @@
+Spring framework
+----------------
+This framework is used to build enterprise aplication such as web application,distributed application,web apis,etc
+It is lightweight framework
+It has upto 20 modules.Few modules are as follows
+1)JDBC
+2)AOP(Aspect orineted programming)
+3)MVC(Model-view-controller)
+4)ORM(Object relational mapping
+5)Test
+6)Context
+7)Core
+8)OXM(Object XML mapping)
+etc
+Every module is available in the form of dependency(one of more than one dependency)
+
+

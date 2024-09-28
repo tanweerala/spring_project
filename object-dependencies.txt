@@ -1,0 +1,9 @@
+Object dependencies
+-------------------
+If object of class AA wants to call method of class BB then object of class AA needs object of class BB.Here object of class BB will be dependency of object of class AA
+Spring framework provides loose coupling between object dependencies
+
+
+
+
+

@@ -1,0 +1,13 @@
+Inversion of control(IOC)
+--------------------------
+Spring frameworks works on this principal
+Our program gives following control to the spring framework
+1)Creating all objects
+2)Keeping reference of all object
+3)Initializing objects
+4)Managing life cycle of objects
+5)Setting scope of objects
+6)Injection objects
+etc
+
+Spring framework provides loose coupling between object dependencies

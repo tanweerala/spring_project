@@ -1,0 +1,16 @@
+Dependency injection
+====================
+Providing object of a class to the object of another class during construction of another class object or after construction of another class object is called dependency injection
+
+Let us suppose object of class AA wants object of class BB.It means object of class BB is dependency of object of class AA
+
+Giving object of class BB to the object of class AA is called dependency injection
+
+If your application is using spring framework then this task will be performed by IOC container
+
+We will have to configure dependency injection
+
+Types of dependency injection
+==============================
+1)Setter injection
+2)Constructor injection

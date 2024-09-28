@@ -1,0 +1,4 @@
+Spring beans
+============
+All objects created by spring framework is called spring beans
+These objects will be used by our application
